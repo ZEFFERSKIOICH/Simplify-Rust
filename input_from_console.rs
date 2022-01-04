@@ -3,7 +3,7 @@
    b)for multiple variables of different types replace vector with tuple and add similar generic types
      destructing the tuple after  calling vin()
 */
-
+//#![allow(dead_code,unused_variables)]   uncomment this to remove such warnings 
 use std::io;
 //read single value in a line
 #[inline(always)]
